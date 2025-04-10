@@ -13,8 +13,6 @@ export default function App() {
    
       <Nav />
 
-      <Home />
-
       <div className='mainContent'>
         <Routes >
           <Route path='/' element = {<Home />}/>

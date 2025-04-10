@@ -6,6 +6,9 @@ export default defineConfig({
   output: {
     assetPrefix: '/Personal-Portfolio/',
   },
+  html: {
+    favicon: './src/assets/img/icon.png',
+  },
 });
 
 

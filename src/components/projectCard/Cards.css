@@ -10,6 +10,8 @@
 
 .projectIMG-Description{
     margin-top: 10%;
+    transition: scale .2s ease-in;
+
 }
 .projectIMG{
     width: 90%;
@@ -24,6 +26,9 @@
     .projectIMG{
         scale: 1.1;
         opacity: .8;
+    }
+    .projectIMG-Description{
+        scale: 1.1;
     }
 }
 

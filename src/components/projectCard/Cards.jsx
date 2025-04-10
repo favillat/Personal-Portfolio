@@ -4,18 +4,20 @@ import React from 'react';
 function Project_Card(props){
     return (
         <div >
-            <div className="project-Wrapper">
-                <div className="imgWrapper">
-                    <img className = "projectIMG"src={props.img} alt="SORRY NOT FOUND" />
-                    <div className="gradient"></div>
-                </div>
+                <a href={props.link}>
+                <div className="project-Wrapper">
+                    <div className="imgWrapper">
+                        <img className = "projectIMG"src={props.img} alt="SORRY NOT FOUND" />
+                        <div className="gradient"></div>
+                    </div>
 
-                <div className="projectIMG-Description">
-                    <h3>{props.name}</h3>
-                    <p className="subHeading">{props.desc}</p>
+                    <div className="projectIMG-Description">
+                        <h3>{props.name}</h3>
+                        <p className="subHeading">{props.desc}</p>
+                    </div>
+                    
                 </div>
-                
-            </div>
+            </a>
         </div>
     
     );

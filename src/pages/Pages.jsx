@@ -58,7 +58,7 @@ function Home(){
                 <h1 >Projects</h1>
                
                <div>
-                <Project_Card img = {pongStillOne} name = "Pong!" desc = "A small but complete remake of the legendary PONG game, built entirely in Python—because who needs fancy graphics when you can have pixel-perfect nostalgia" />
+                <Project_Card  link = "https://github.com/favillat/Pong"img = {pongStillOne} name = "Pong!" desc = "A small but complete remake of the legendary PONG game, built entirely in Python—because who needs fancy graphics when you can have pixel-perfect nostalgia" />
                 <Project_Card img = {qrstill} name = "URL Generator" desc = "A quick and easy tool that turns any link, text, or image into something any device can scan and read-—like a QR code." />
                 <Project_Card img = {pskStill} name = "PISKL" desc = "I’m a huge fan of the 8-bit art style, so I decided to build a bare-bones pixel art editor inspired by classic retro aesthetics. It’s a simple tool, but it’s been a fun way to combine my love for pixel art with hands-on programming." />
                </div>

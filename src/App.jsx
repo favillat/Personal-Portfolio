@@ -15,7 +15,7 @@ export default function App() {
 
       <div className='mainContent'>
         <Routes >
-          <Route path='/Personal-Portfolio' element = {<Home />}/>
+          <Route path='/' element = {<Home />}/>
           <Route path='/Contact' element = {<Contact />}/>
           
         </Routes>

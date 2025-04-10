@@ -4,7 +4,7 @@ import { pluginReact } from '@rsbuild/plugin-react';
 export default defineConfig({
   plugins: [pluginReact()],
   output: {
-    assetPrefix: 'https://github.com/favillat/Personal-Portfolio/tree/gh-pages/',
+    assetPrefix: '/Personal-Portfolio/',
   },
 });
 

@@ -1,0 +1,57 @@
+.intro-Section{
+    border: .5px solid #e3e3e39a;
+    border-radius: 10px;
+    padding: 4%;
+    margin-bottom: 20px;
+    
+  }
+
+
+
+.vl{
+    border-left: 5px solid #e3e3e39a;
+    height: 80%;
+    
+}
+.headerContacts a{
+    margin: 10px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+  }
+  
+.headerContacts{
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+.introHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .experience-Section div, .project-Section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 5% 10px;
+  }
+  .experience-Section, .project-Section{
+    margin-top: 100px;
+  }
+
+
+
+/* CONTACT */
+.ContactPageCards{
+    display: flex;
+    justify-content: center;
+    padding:10%;
+}
+
+.ContactText{
+  margin-top: 10%;
+}
+

@@ -38,7 +38,7 @@ function Home(){
 
             <div className="experience-Section">
                 <br />
-                <h1>Experience</h1>
+                <h1>Past Experience</h1>
                 <br />
 
 
@@ -55,13 +55,12 @@ function Home(){
 
             <div className="project-Section">
                 <br />
-                <h1 >Projects</h1>
+                <h1 >Favorite Projects</h1>
                
                <div>
                 <Project_Card  link = "https://github.com/favillat/Pong"img = {pongStillOne} name = "Pong!" desc = "A small but complete remake of the legendary PONG game, built entirely in Python—because who needs fancy graphics when you can have pixel-perfect nostalgia" />
                 <Project_Card link = "https://github.com/favillat/URL-to-QR" img = {qrstill} name = "URL Generator" desc = "A quick and easy tool that turns any link, text, or image into something any device can scan and read-—like a QR code." />
                 <Project_Card link = "https://github.com/favillat/PISKEL" img = {pskStill} name = "PISKL" desc = "I’m a huge fan of the 8-bit art style, so I decided to build a bare-bones pixel art editor inspired by classic retro aesthetics. It’s a simple tool, but it’s been a fun way to combine my love for pixel art with hands-on programming." />
-                <Project_Card link = "https://github.com/favillat/To-Do-List" img = {pskStill} name = "Tasks" desc = "A simple yet effective tool to curb my procrastination. A classic as far as projects go; but always a good start." />
                </div>
 
                 
